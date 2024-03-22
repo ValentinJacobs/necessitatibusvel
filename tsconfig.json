@@ -1,0 +1,22 @@
+{
+    "compilerOptions": {
+        "target": "ES2022",
+        "composite": true,
+
+        "emitDecoratorMetadata": true,
+        "experimentalDecorators": true,
+        
+        "strict": true,
+        "removeComments": false,
+        "isolatedModules": true,
+        "moduleResolution": "node",
+
+        "sourceMap": true,
+        "declaration": true,
+    },
+    "exclude": [
+        "./packages/*/dist",
+        "./**/*.example.ts",
+        "./**/*.test.ts"
+    ]
+}
